@@ -10,8 +10,8 @@ $ npm install --save image-check
 ## Usage
 
 ```js
-var imageCheck = require('image-check');
-imageCheck('some image url to test').then((data) => {
+var checkImage = require('image-check');
+checkImage('some image url to test').then((data) => {
     // access image attributes
     const width = data.width;
     const height = data.height;

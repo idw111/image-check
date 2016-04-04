@@ -1,6 +1,6 @@
 {
   "name": "image-check",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Check if image exists and retrieve its size (based on Promise)",
   "homepage": "",
   "author": {
