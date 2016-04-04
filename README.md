@@ -1,4 +1,4 @@
-# image-check [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# image-check [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Check if image exists and retrieve its size (based on Promise)
 
 ## Installation
@@ -11,11 +11,11 @@ $ npm install --save image-check
 
 ```js
 var imageCheck = require('image-check');
-imageCheck('some image url to test').then((image) => {
+imageCheck('some image url to test').then((data) => {
     // access image attributes
-    const width = image.width;
-    const height = image.height;
-    const url = image.url;
+    const width = data.width;
+    const height = data.height;
+    const url = data.url;
 }).catch((err) => {
     // handle error
 });
