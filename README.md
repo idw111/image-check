@@ -1,4 +1,4 @@
-# image-check [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# image-check [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Check if image exists and retrieve its size (based on Promise)
 
 ## Installation
@@ -29,5 +29,3 @@ MIT © [Dongwon Lim]()
 [npm-url]: https://npmjs.org/package/image-check
 [daviddm-image]: https://david-dm.org/idw111/image-check.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/idw111/image-check
-[coveralls-image]: https://coveralls.io/repos/idw111/image-check/badge.svg
-[coveralls-url]: https://coveralls.io/r/idw111/image-check
